@@ -1,78 +1,47 @@
 /* Media query para telas menores, como smartphones */
 @media screen and (max-width: 767px) {
   body {
-    background-color: chocolate;
+    background-image: url(../img/fundo.svg);
     background-position: center top;
     background-size: cover;
   }
 
   p {
-    text-align: center;
     font-size: 1rem;
   }
   h1 {
-    text-align: center;
     font-size: 2.4rem;
-    font-weight: bold;
   }
   h2 {
-    text-align: center;
     font-size: 2.2rem;
-    font-weight: bold;
   }
   h3 {
-    text-align: center;
     font-size: 1.8rem;
-    font-weight: bold;
-  }
-  h4 {
-    font-size: 1.2rem;
-    font-weight: bold;
-  }
-  .btn-degrade {
-    margin: auto;
-    display: block;
-  }
-  .risco:before {
-    display: none;
   }
 }
 
 /* Media query para tablets e telas médias */
-
-/* 
-  @media screen and (min-width: 768px) and (max-width: 991px) {
-      #fundo-body {
-          background-image: url(../img/home/orange-tablet.svg);
-      background-position: center top;
-      background-size: cover;
-    }
-    p {
-      font-size: 1.1rem;
-    }
-    h1 {
-      font-size: 2.8rem;
-      font-weight: bold;
-    }
-    h2 {
-      font-size: 2.6rem;
-      font-weight: bold;
-    }
-    h3 {
-      font-size: 2rem;
-      font-weight: bold;
-    }
-    h4 {
-      font-size: 1.4rem;
-      font-weight: bold;
-    }
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-image: url(../img/fundo.svg);
+    background-position: center top;
+    background-size: cover;
   }
-  
-  
-  */
+  p {
+    font-size: 1rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+}
 
 /* Media query para telas maiores, como desktops */
-
 @media screen and (min-width: 992px) {
   body {
     background-image: url(../img/fundo.svg);
@@ -86,15 +55,9 @@
     font-size: 4rem;
   }
   h2 {
-    font-size: 2.6rem;
-    font-weight: bold;
+    font-size: 3rem;
   }
   h3 {
-    font-size: 2.2rem;
-    font-weight: bold;
-  }
-  h4 {
-    font-size: 1.6rem;
-    font-weight: bold;
+    font-size: 1.4rem;
   }
 }
