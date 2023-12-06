@@ -13,6 +13,14 @@ body {
     color: #3DDEED;
 }
 
+.bg-chumbo {
+  background-color: #ffffff08;
+}
+
+.bg-teste {
+  background-color: #ffffff50;
+}
+
 .btn-blue {
     background-color: #3DDEED;
 }
@@ -27,7 +35,6 @@ body {
     color: #3DDEED;
     background-color: #182627;
 }
-
 
 .btn-dois:hover {
     color: #3DDEED;
