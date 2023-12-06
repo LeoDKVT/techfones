@@ -1,4 +1,50 @@
-body {
-    background-color: #0F041C;
-    background-image: url(../img/fundo.svg);
+@font-face {
+  font-family: "inter";
+  src: url(../font/Inter-Regular.ttf);
 }
+
+body {
+  background-color: #0f041c;
+  background-image: url(../img/fundo.svg);
+  font-family: "inter", sans-serif;
+}
+
+.text-blue {
+    color: #3DDEED;
+}
+
+.btn-blue {
+    background-color: #3DDEED;
+}
+
+
+.btn-blue:hover {
+    color: #000000;
+    background-color: #BD00FF;
+}
+
+.btn-dois {
+    color: #3DDEED;
+    background-color: #182627;
+}
+
+
+.btn-dois:hover {
+    color: #3DDEED;
+    background-color: #BD00FF;
+}
+
+
+.teste {
+    background-image: url(../img/redesocial/instagram.svg);
+    font-size: 40px; /* Define o tamanho do ícone */
+  }
+
+
+
+  .leozin {
+    background-image: url(../img/icones/seta.svg);
+  }
+
+
+

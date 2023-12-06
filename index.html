@@ -7,78 +7,148 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
     <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-g5N6q1GOvmzDvYAZQ4dmxaLOe8U3zZl6HfCpPy3Uie3qq5mw1y2j7rgM46Y5KfpR" crossorigin="anonymous">
 
 
 </head>
 
 <body>
 
-    <section class="container">
-        <div class="row">
+    <header class="mt-2">
+        <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Catálogo</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produto</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Pesquise jogos e produtos"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="container text-white mt-5">
+        <div class="row mt-5">
             <div class="col-md-5">
-                <p>Fones de ouvido virtuais</p>
-                <h1>Experimente uma nova dimensão da realidade</h1>
-                <p>Entre no futuro com nosso fone de ouvido virtual e ganhe vida diante de seus olhos</p>
-                <button type="button" class="btn btn-primary">Visite a loja</button>
-                <button type="button" class="btn btn-primary">Explorar</button>
+                <p class="text-white-50">FONES DE OUVIDO VIRTUAIS</p>
+                <h1 class="mb-5">Experimente uma nova dimensão da realidade</h1>
+                <p class="text-white-50"><img class="me-2" src="img/icones/star.svg" alt="">Entre no futuro com nosso
+                    fone de ouvido virtual e ganhe vida diante de seus olhos</p>
+                <button type="button" class="btn btn-blue fw-bold py-3 px-4 me-5">
+                    Visite a loja<img class="ms-3" src="img/icones/seta.svg" alt="">
+                </button>
+
+                <button type="button" class="btn btn-outline-light fw-bold py-3 px-4"><img class="me-3"
+                        src="img/icones/explorar.svg" alt="">Explorar
+                </button>
+
+
+
+
             </div>
             <div class="col-md-7">
                 <img class="img-fluid" src="img/men-oculos.webp" alt="Oculos virtual">
             </div>
+
+
         </div>
     </section>
 
-    <section class="container">
+    <section class="container text-white mt-5">
         <div class="row">
             <div class="col-md-5">
                 <p>SIGA-NOS</p>
-                <img class="img-fluid" src="img/redesocial/x.svg" alt="">
-                <img class="img-fluid" src="img/redesocial/instagram.svg" alt="">
-                <img class="img-fluid" src="img/redesocial/youtube.svg" alt="">
-                <img class="img-fluid" src="img/redesocial/facebook.svg" alt="">
-
+                <a href="#"><img class="img-fluid me-2" src="img/redesocial/x.svg" alt="rede social x"></a>
+                <a href="#"><img class="img-fluid me-2" src="img/redesocial/instagram.svg"
+                        alt="rede social instagram"></a>
+                <a href="#"><img class="img-fluid me-2" src="img/redesocial/youtube.svg" alt="rede social youtube"></a>
+                <a href="#"><img class="img-fluid me-2" src="img/redesocial/facebook.svg"
+                        alt="rede social facebook"></a>
             </div>
             <div class="col-md-3 text-end">
-                <p>Educação Aprimorada</p>
+                <p class="text-white-50"><img class="me-2" src="img/icones/educacao.svg" alt="">Educação Aprimorada</p>
             </div>
             <div class="col-md-4 text-end">
-                <p>Treinamento e Simulação</p>
+                <p class="text-white-50"><img class="me-2" src="img/icones/treinamentos.svg" alt="">Treinamento e
+                    Simulação</p>
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container text-white my-5">
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="img/oculos.png" alt="">
+                <img class="img-fluid" src="img/Group.svg" alt="">
             </div>
             <div class="col-md-6">
                 <h2>Nossos fones de ouvido virtuais com design inovador!</h2>
                 <div class="row">
                     <div class="col-md-6">
-                        <p>Telas OLED ou LCD de alta resolução: fornecem imagens nítidas e claras.</p>
-                        <p>Rastreamento de dentro para fora: Sensores integrados (câmeras ou outros sensores).</p>
-                        <p>Telas OLED ou LCD de alta resolução: fornecem imagens nítidas e claras.</p>
+                        <p class="text-white-50"><img class="me-2" src="img/icones/starblue.svg" alt="">Telas OLED ou
+                            LCD de alta resolução: fornecem imagens nítidas e claras.</p>
+                        <p class="text-white-50"><img class="me-2" src="img/icones/starblue.svg" alt="">Rastreamento de
+                            dentro para fora: Sensores integrados (câmeras ou outros sensores).</p>
+                        <p class="text-white-50"><img class="me-2" src="img/icones/starblue.svg" alt="">Telas OLED ou
+                            LCD de alta resolução: fornecem imagens nítidas e claras.</p>
                     </div>
                     <div class="col-md-6">
-                        <p>Taxa de atualização: Taxas de atualização mais altas reduzem o enjoo e fornecem.</p>
-                        <p>Rastreamento ocular: monitora o movimento dos olhos do usuário, permitindo mais.</p>
-                        <p>Taxa de atualização: Taxas de atualização mais altas reduzem o enjoo e fornecem.</p>
+                        <p class="text-white-50"><img class="me-2" src="img/icones/starblue.svg" alt="">Taxa de
+                            atualização: Taxas de atualização mais altas reduzem o enjoo e fornecem.</p>
+                        <p class="text-white-50"><img class="me-2" src="img/icones/starblue.svg" alt="">Rastreamento
+                            ocular: monitora o movimento dos olhos do usuário, permitindo mais.</p>
+                        <p class="text-white-50"><img class="me-2" src="img/icones/starblue.svg" alt="">Taxa de
+                            atualização: Taxas de atualização mais altas reduzem o enjoo e fornecem.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container">
+    <section class="container text-white my-5">
         <div class="row">
             <div class="col-md-5">
                 <h2>Gabriela Silva, criadora de jogos</h2>
                 <p>Um criador de headset virtual é um indivíduo ou empresa especializada em projetar e fabricar headsets
                     de realidade virtual, também conhecidos como headsets VR.</p>
-                <button type="button" class="btn btn-primary">Leia meu blog</button>
+
+                <button type="button" class="btn btn-dois py-3 px-4 me-5">
+                    Leia meu blog<img class="ms-3" src="img/icones/setablue.svg" alt="">
+                </button>
                 <img class="img-fluid" src="img/views.svg" alt="">
 
             </div>
@@ -91,150 +161,50 @@
 
 
 
-    <section class="pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <h3 class="mb-3">Top Games</h3>
-                </div>
-                <div class="col-6 text-right">
-                    <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
-                        data-slide="prev">
-                        <i class="fa fa-arrow-left"></i>
-                    </a>
-                    <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
-                        <i class="fa fa-arrow-right"></i>
-                    </a>
-                </div>
-                <div class="col-12">
-                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+    <section class="container pt-5 pb-5 text-white my-5">
+        <div class="row">
+            <div class="col-4">
+                <h3 class="mb-3">Top Games</h3>
+            </div>
 
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
+            <div class="col-4">
+                <p class="mb-3">Na compra de 2 jogos, você receberá 1 jogo grátis, além de 50% de desconto.</p>
+            </div>
 
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1532781914607-2031eca2f00d?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=7c625ea379640da3ef2e24f20df7ce8d">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1517760444937-f6397edcbbcd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=42b2d9ae6feb9c4ff98b9133addfb698">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1532712938310-34cb3982ef74?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3d2e8a2039c06dd26db977fe6ac6186a">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
+            <div class="col-4 text-end">
+                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button"
+                    data-bs-slide="prev">
+                    <img src="img/icones/seta.svg" alt="">
+                </a>
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-bs-slide="next">
+                    <img src="img/icones/seta.svg" alt="">
+                </a>
+            </div>
+            <div class="col-12">
+                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="img/jogos/horizon.png"
+                                        alt="jogo Horizon : Call of the mountain">
+                                    <h4 class="">Horizon : Call of the mountain</h4>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="img/jogos/half.png" alt="jogo Half - Life : ALYX">
+                                    <h4 class="">Half - Life : ALYX</h4>
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="img/jogos/fight.png" alt="jogo Fight Night Champion">
+                                    <h4>Fight Night Champion</h4>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <div class="row">
-
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1532771098148-525cefe10c23?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=3f317c1f7a16116dec454fbc267dd8e4">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1532715088550-62f09305f765?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ebadb044b374504ef8e81bdec4d0e840">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=0754ab085804ae8a3b562548e6b4aa2e">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row">
-
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=ee8417f0ea2a50d53a12665820b54e23">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1532777946373-b6783242f211?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=8ac55cf3a68785643998730839663129">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <div class="card">
-                                            <img class="img-fluid" alt="100%x280"
-                                                src="https://images.unsplash.com/photo-1532763303805-529d595877c5?ixlib=rb-0.3.5&amp;q=80&amp;fm=jpg&amp;crop=entropy&amp;cs=tinysrgb&amp;w=1080&amp;fit=max&amp;ixid=eyJhcHBfaWQiOjMyMDc0fQ&amp;s=5ee4fd5d19b40f93eadb21871757eda6">
-                                            <div class="card-body">
-                                                <h4 class="card-title">Special title treatment</h4>
-                                                <p class="card-text">With supporting text below as a natural lead-in to
-                                                    additional content.</p>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-fluid" src="img/jogos/call.png" alt="jogo Call of Duty : Coold War">
+                                    <h4>Call of Duty : Coold War</h4>
                                 </div>
                             </div>
                         </div>
@@ -245,83 +215,168 @@
     </section>
 
 
-    <section>
-        <h2>Perguntas frequentes</h2>
+    <section class="container text-white">
+        <h2 class="mb-5">Perguntas Frequentes</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 accordion" id="perguntasFrequentes" data-bs-children=".pergunta">
 
+                <div class="pergunta bg-secondary py-2 my-4">
+                    <a class="lead d-block" data-bs-toggle="collapse" href="#pergunta1" aria-expanded="true"
+                        aria-controls="pergunta1">
+                        → É possível cancelar a viagem?
+                    </a>
+                    <div id="pergunta1" class="collapse" data-bs-parent="#perguntasFrequentes" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+
+                <div class="pergunta bg-secondary py-2 my-4">
+                    <a class="lead" data-bs-toggle="collapse" href="#pergunta2" aria-expanded="false"
+                        aria-controls="pergunta2">
+                        → Como funciona um fone de ouvido virtual?
+                    </a>
+                    <div id="pergunta2" class="collapse show" data-bs-parent="#perguntasFrequentes" role="tabpanel">
+                        <p>Os headsets virtuais são equipados com vários sensores para rastrear os movimentos do
+                            usuário. Esses sensores podem incluir acelerômetros, giroscópios e, às vezes, câmeras
+                            externas ou estações base. Eles monitoram constantemente a posição e a orientação do fone de
+                            ouvido e, às vezes, dos controladores manuais do usuário. O fone de ouvido possui um ou
+                            dois monitores de alta resolução, um para cada olho, posicionados na frente dos olhos do
+                            usuário. Esses monitores mostram imagens 3D estereoscópicas, criando uma sensação de
+                            profundidade e imersão. Entre os monitores e os olhos do usuário, ajude a focar as imagens e
+                            ajustá-las ao campo de visão do usuário.</p>
+                    </div>
+                </div>
+
+                <div class="pergunta bg-secondary py-2 my-4">
+                    <a class="lead" data-bs-toggle="collapse" href="#pergunta3" aria-expanded="false"
+                        aria-controls="pergunta3">
+                        → Qual a principal forma de viagem?
+                    </a>
+                    <div id="pergunta3" class="collapse" data-bs-parent="#perguntasFrequentes" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+
+                <div class="pergunta bg-secondary py-2 my-4">
+                    <a class="lead" data-bs-toggle="collapse" href="#pergunta4" aria-expanded="false"
+                        aria-controls="pergunta4">
+                        → Qual o melhor destino de viagem?
+                    </a>
+                    <div id="pergunta4" class="collapse" data-bs-parent="#perguntasFrequentes" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+
+                <div class="pergunta bg-secondary py-2 my-4">
+                    <a class="lead" data-bs-toggle="collapse" href="#pergunta5" aria-expanded="false"
+                        aria-controls="pergunta5">
+                        → Vocês dão descontos para grupos grandes?
+                    </a>
+                    <div id="pergunta5" class="collapse" data-bs-parent="#perguntasFrequentes" role="tabpanel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
+    <footer class="container-fluid text-white bg-dark">
+        <div class="container pt-5 pb-4">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="mb-4" src="img/logo.svg" alt=""> <br>
+                    <a href="#"><img class="img-fluid me-2" src="img/redesocial/x.svg" alt="rede social x"></a>
+                    <a href="#"><img class="img-fluid me-2" src="img/redesocial/instagram.svg"
+                            alt="rede social instagram"></a>
+                    <a href="#"><img class="img-fluid me-2" src="img/redesocial/youtube.svg"
+                            alt="rede social youtube"></a>
+                    <a href="#"><img class="img-fluid me-2" src="img/redesocial/facebook.svg"
+                            alt="rede social facebook"></a>
+                    <p class="text-start mt-4">(+55) 11-91234-5678</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="h5 text-start mb-4">Menu</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Home</a></li>
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Catálogo</a></li>
+                        <li class="mb-3"><a class="text-decoration-none" href="#">blog</a></li>
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Produtos</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h2 class="h5 text-start mb-4">Empresa</h2>
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Login</a></li>
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Inscrever-se</a></li>
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Privacidade</a></li>
+                        <li class="mb-3"><a class="text-decoration-none" href="#">Produtos</a></li>
+                        <li class="">
+                            <a class="icon-link icon-link-hover" style="--bs-link-hover-color-rgb: 25, 135, 84;"
+                                href="#">
+                                Icon link
+                                <svg class="bi bi-0-square" aria-hidden="true">
+                                    <use xlink:href="#arrow-right"></use>
+                                </svg>
+                            </a>
+                        </li>
 
-    <section class="container">
-        <div class="my-5 text-center">
-          <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
-          <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+                        <li>
+                            <i class="bi bi-0-square"></i>
+
+                        </li>
+
+
+                        <!-- Adicione este trecho no início do seu corpo HTML -->
+                        <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                            <symbol id="clipboard" fill="currentColor" viewBox="0 0 16 16">
+                                <path
+                                    d="M10 2H8a2 2 0 0 0-2 2v1H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-1V4a2 2 0 0 0-2-2z" />
+                            </symbol>
+                        </svg>
+
+                        <li>
+                            <a class="icon-link icon-link-hover"
+                                style="--bs-icon-link-transform: translate3d(0, -.125rem, 0);" href="#">
+                                <svg class="bi" aria-hidden="true">
+                                    <use xlink:href="#clipboard"></use>
+                                </svg>
+                                Icon link
+                            </a>
+                        </li>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-0-square" viewBox="0 0 16 16">
+                            <path
+                                d="M7.988 12.158c-1.851 0-2.941-1.57-2.941-3.99V7.84c0-2.408 1.101-3.996 2.965-3.996 1.857 0 2.935 1.57 2.935 3.996v.328c0 2.408-1.101 3.99-2.959 3.99ZM8 4.951c-1.008 0-1.629 1.09-1.629 2.895v.31c0 1.81.627 2.895 1.629 2.895s1.623-1.09 1.623-2.895v-.31c0-1.8-.621-2.895-1.623-2.895Z" />
+                            <path
+                                d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1z" />
+                        </svg>
+
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h2 class="h5 mb-4">Assine nossa newsletter</h2>
+                    <p>Forneça seu endereço de e-mail para assinar o boletim informativo</p>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Digite seu e-mail..."
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <img class="img-fluid my-4" src="img/icones/linhafooter.svg" alt="">
+            <p class="text-center">© 2023 Tech Cisne. Todos os direitos reservados.</p>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
-            <div class="pergunta py-2">
-              <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1">→ É
-                possível cancelar a viagem?</a>
-              <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque.
-                  Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-              </div>
-            </div>
-            <div class="dropdown-divider"></div>
-            <div class="pergunta py-2">
-              <a class="lead" data-toggle="collapse" href="#pergunta2" aria-expanded="true" aria-controls="pergunta2">→ Qual
-                a garantia que tenho se perder o voo?</a>
-              <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque.
-                  Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-              </div>
-            </div>
-            <div class="dropdown-divider"></div>
-            <div class="pergunta py-2">
-              <a class="lead" data-toggle="collapse" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3">→ Qual
-                a principal forma de viagem?</a>
-              <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque.
-                  Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-              </div>
-            </div>
-            <div class="dropdown-divider"></div>
-            <div class="pergunta py-2">
-              <a class="lead" data-toggle="collapse" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4">→ Qual
-                o melhor destino de viagem?</a>
-              <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque.
-                  Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-              </div>
-            </div>
-            <div class="dropdown-divider"></div>
-            <div class="pergunta py-2">
-              <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5">→
-                Vocês dão descontos para grupos grandes?</a>
-              <div id="pergunta5" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque.
-                  Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.</p>
-              </div>
-            </div>
-            <div class="dropdown-divider"></div>
-          </div>
-        </div>
-        <div class="text-center my-4">
-          <p class="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-          <a class="btn btn-primary btn-lg" href="contato.html">Entre em Contato</a>
-        </div>
-      </section>
-
-      <footer class="">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <div class="col-md-3"></div>
-            <div class="col-md-2"></div>
-            <div class="col-md-4"></div>
-        </div>
-      </footer>
+    </footer>
 
 
 
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
 
 
 
