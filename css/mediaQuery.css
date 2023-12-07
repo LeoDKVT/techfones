@@ -1,7 +1,6 @@
 /* Media query para telas menores, como smartphones */
 @media screen and (max-width: 767px) {
   body {
-    background-image: url(../img/fundo.svg);
     background-position: center top;
     background-size: cover;
   }
