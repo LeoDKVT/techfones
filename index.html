@@ -4,26 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.svg" type="image/x-icon">
+
+    <!-- CSS do Bootstrap v5.3-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mediaQuery.css">
+
+    <!-- Animação AOS em JS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <title>Tech Cisne</title>
-
-
-
 </head>
 
 <body>
-
     <header class="mt-2">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
-
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -37,16 +36,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#catalogo">Catálogo</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="#blog">Blog</a>
                         </li>
-
                         <li class="nav-item">
                             <a class="nav-link" href="#produto">Produto</a>
                         </li>
                     </ul>
-
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Pesquise jogos e produtos"
                             aria-label="Search">
@@ -61,7 +57,8 @@
         <div class="row align-items-center">
             <div class="col-lg-5 mb-5">
                 <p class="text-start text-white-50">FONES DE OUVIDO VIRTUAIS</p>
-                <h1 class="text-start mb-4">Experimente uma nova dimensão da realidade</h1>
+                <h1 class="text-start mb-4 animate__animated animate__fadeInLeft">Experimente uma nova dimensão da
+                    realidade</h1>
                 <p class="text-start text-white-50"><img class="me-2" src="img/icones/star.svg" alt="">Entre no futuro
                     com nosso
                     fone de ouvido virtual e ganhe vida diante de seus olhos</p>
@@ -99,7 +96,7 @@
         </div>
     </section>
 
-    <section id="catalogo" class="container text-white my-5 mt-5">
+    <section data-aos="fade-left" data-aos-duration="1500" id="catalogo" class="container text-white my-5 mt-5">
         <div class="row align-items-center my-5">
             <div class="col-lg-6">
                 <img class="img-fluid" src="img/Group.svg" alt="">
@@ -134,7 +131,7 @@
         </div>
     </section>
 
-    <section id="blog" class="container text-white my-5">
+    <section data-aos="fade-right" data-aos-duration="1500" id="blog" class="container text-white my-5">
         <div class="row align-items-center">
             <div class="col-md-5">
                 <h2 class="text-start mb-4">Gabriela Silva, criadora de jogos</h2>
@@ -153,22 +150,18 @@
         </div>
     </section>
 
-
-
-    <section id="produto" class="container pt-5 pb-5 text-white my-5">
+    <section data-aos="fade-up" data-aos-duration="1500" id="produto" class="container pt-5 pb-5 text-white my-5">
         <div class="row mb-2">
             <div class="col-lg-4">
                 <h2 class="text-start mb-3">
                     Top Games
                 </h2>
             </div>
-
             <div class="col-lg-4">
                 <p class="text-start mb-3">
                     Na compra de 2 jogos, você receberá 1 jogo grátis, além de 50% de desconto.
                 </p>
             </div>
-
             <div class="col-lg-4 mb-4">
                 <a class="btn-dois rounded text-decoration-none py-2 px-3 me-2" href="#carouselExampleIndicators2"
                     role="button" data-bs-slide="prev">
@@ -180,9 +173,6 @@
                 </a>
             </div>
         </div>
-
-
-
 
         <div>
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -217,9 +207,8 @@
         </div>
     </section>
 
-    <section class="container text-white my-5">
+    <section data-aos="fade-down" data-aos-duration="1500" class="container text-white my-5">
         <h2 class="text-white my-4">Perguntas Frequentes</h2>
-
         <div class="row">
             <div class=" accordion" id="perguntasFrequentes" data-bs-children=".pergunta">
                 <div class="pergunta bg-chumbo py-2 my-4 px-4">
@@ -233,14 +222,11 @@
                             laborum assumenda rem cumque. Recusandae.</p>
                     </div>
                 </div>
-
                 <div class="pergunta bg-chumbo py-2 my-4 px-4 justyfy-content-beetween">
                     <a class="lead d-block text-decoration-none" data-bs-toggle="collapse" href="#pergunta2"
                         aria-expanded="false" aria-controls="pergunta2">
                         Como funciona um fone de ouvido virtual? <img src="img/icones/seta.svg" alt="">
                     </a>
-
-
                     <div id="pergunta2" class="collapse show" data-bs-parent="#perguntasFrequentes" role="tabpanel">
                         <p>Os headsets virtuais são equipados com vários sensores para rastrear os movimentos do
                             usuário. Esses sensores podem incluir acelerômetros, giroscópios e, às vezes, câmeras
@@ -253,7 +239,6 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="pergunta bg-chumbo py-2 my-4 px-4">
                     <a class="lead d-block text-decoration-none" data-bs-toggle="collapse" href="#pergunta3"
                         aria-expanded="false" aria-controls="pergunta3">
@@ -265,7 +250,6 @@
                             inventore sit deleniti eaque qui maiores deserunt?</p>
                     </div>
                 </div>
-
                 <div class="pergunta bg-chumbo py-2 my-4 px-4">
                     <a class="lead d-block text-decoration-none" data-bs-toggle="collapse" href="#pergunta4"
                         aria-expanded="false" aria-controls="pergunta4">
@@ -280,10 +264,6 @@
             </div>
         </div>
     </section>
-
-
-
-
 
     <!--
     <section class="container mb-5">
@@ -363,15 +343,7 @@
             </div>
         </div>
     </section>
-
-
 -->
-
-
-
-
-
-
 
     <footer class="container-fluid text-white bg-chumbo">
         <div class="container pt-5 pb-4">
@@ -428,9 +400,20 @@
         </div>
     </footer>
 
+    <!-- JS da animações AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Inicialização da animação AOS -->
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- CDN do Arquivo Bootstrap popper v2.11-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
+
+    <!-- CDN do Arquivo JS do Bootstrap v5.3-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
         crossorigin="anonymous"></script>
