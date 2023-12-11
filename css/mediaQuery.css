@@ -1,6 +1,7 @@
 /* Media query para telas menores, como smartphones */
 @media screen and (max-width: 767px) {
   body {
+    background-image: url(../img/fundo-mobile.svg);
     background-position: center top;
     background-size: cover;
   }
@@ -12,7 +13,7 @@
     font-size: 2.4rem;
   }
   h2 {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   h3 {
     font-size: 1rem;
