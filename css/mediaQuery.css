@@ -1,11 +1,18 @@
+@media screen and (max-width: 430px) {
+  body {
+    background-image: url(../img/testecelu.svg);
+    background-position: center top;
+    background-size: cover;
+  }
+}
+
 /* Media query para telas menores, como smartphones */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 431px) and (max-width: 767px) {
   body {
     background-image: url(../img/fundo-mobile.svg);
     background-position: center top;
     background-size: cover;
   }
-
   p {
     font-size: 1rem;
   }
