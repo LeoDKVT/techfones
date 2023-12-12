@@ -1,7 +1,7 @@
 @media screen and (max-width: 430px) {
   body {
+    background-image: url(../img/testecelu.svg);
     background-position: center top;
-    background-size: cover;
   }
 }
 
