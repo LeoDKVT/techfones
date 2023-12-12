@@ -1,6 +1,7 @@
 @media screen and (max-width: 430px) {
-  body {
-    background-position: center top;
+  footer {
+    background-image: url(../img/footer.svg);
+    background-position: center bottom;
     background-size: cover;
   }
 }
