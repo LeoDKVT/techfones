@@ -1,6 +1,6 @@
 @media screen and (max-width: 430px) {
   footer {
-    background-image: url(../img/footer.svg);
+    background-image: url(../img/fundo/footer.svg);
     background-position: center bottom;
     background-size: cover;
   }
@@ -9,7 +9,7 @@
 /* Media query para telas menores, como smartphones */
 @media screen and (min-width: 431px) and (max-width: 767px) {
   body {
-    background-image: url(../img/fundo-mobile.svg);
+    background-image: url(../img/fundo/fundo-mobile.svg);
     background-position: center top;
     background-size: cover;
   }
@@ -25,12 +25,17 @@
   h3 {
     font-size: 1rem;
   }
+  #fundo-footer {
+    background-image: url(../img/fundo/footer.svg);
+    background-position: center bottom;
+    background-size: cover;
+  }
 }
 
 /* Media query para tablets e telas médias */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   body {
-    background-image: url(../img/fundo2.svg);
+    background-image: url(../img/fundo/fundo-tablet.svg);
     background-position: center top;
     background-size: cover;
   }
@@ -46,12 +51,17 @@
   h3 {
     font-size: 1rem;
   }
+  #fundo-footer {
+    background-image: url(../img/fundo/footer.svg);
+    background-position: center bottom;
+    background-size: cover;
+  }
 }
 
 /* Media query para telas maiores, como desktops */
 @media screen and (min-width: 992px) {
   body {
-    background-image: url(../img/fundo.svg);
+    background-image: url(../img/fundo/fundo-desktop.svg);
     background-position: center top;
     background-size: cover;
   }
@@ -66,5 +76,10 @@
   }
   h3 {
     font-size: 1.4rem;
+  }
+  #fundo-footer {
+    background-image: url(../img/fundo/footer.svg);
+    background-position: center bottom;
+    background-size: cover;
   }
 }

@@ -1,18 +1,3 @@
-/*
-
-@font-face {
-  font-family: "inter";
-  src: url(../font/Inter-Regular.ttf);
-}
-
-body {
-  background-color: #0f041c;
-  background-image: url(../img/fundo.svg);
-  font-family: "inter", sans-serif;
-}
-
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 body {
@@ -24,16 +9,17 @@ body {
   color: #3ddeed;
 }
 
+.text-blue:hover {
+  color: #77e7f2;
+  transition: 0.2s;
+}
+
 .text-violet {
   color: #bd00ff;
 }
 
 .bg-chumbo {
   background-color: #ffffff08;
-}
-
-.bg-teste {
-  background-color: #ffffff50;
 }
 
 .btn-blue {
@@ -46,21 +32,12 @@ body {
   background-color: #77e7f2;
 }
 
-.btn-dois {
+.btn-cinza {
   color: #3ddeed;
   background-color: #182627;
 }
 
-.btn-dois:hover {
+.btn-cinza:hover {
   color: #3ddeed;
   background-color: #2f3b3c;
-}
-
-.teste {
-  background-image: url(../img/redesocial/instagram.svg);
-  font-size: 40px; /* Define o tamanho do ícone */
-}
-
-.leozin {
-  background-image: url(../img/icones/seta.svg);
 }
